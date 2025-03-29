@@ -1,15 +1,20 @@
 body {
     margin: 0;
     background-color: black;
-    padding: 6px;
+    padding: 16px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
 #header {
     color: white;
+    position: absolute;
+    z-index: 10;
+    top: 24px;
 }
 
 #header {
@@ -24,6 +29,16 @@ body {
 
 #header h4 {
     font-size: 22px;
+}
+
+.highlighted {
+    background-color: #FFBF00; 
+    border-radius: 16px;
+    padding: 2px 6px;
+}
+
+canvas {
+
 }
 
 @font-face {
