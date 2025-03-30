@@ -1,7 +1,8 @@
 body {
     margin: 0;
     background-color: black;
-    padding: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -14,10 +15,7 @@ body {
     color: white;
     position: absolute;
     z-index: 10;
-    top: 24px;
-}
-
-#header {
+    top: 14px;
     font-family: "Poppins";
     text-align: center;
 }
